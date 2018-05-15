@@ -7,5 +7,5 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  array.index
+  array.index {|word| word.include?("wa")}
 end  

@@ -15,3 +15,7 @@ def first_wa(array)
   end 
   wa.first
 end  
+
+def remove_non_strings(array)
+  array.select {|word| word.string?}
+end  

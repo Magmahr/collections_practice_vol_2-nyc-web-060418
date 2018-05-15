@@ -32,3 +32,7 @@ def count_elements(array)
         i[:count] = count}
 end
 
+def merge_data(array)
+  array.flatten
+end  
+  

@@ -32,7 +32,7 @@ def count_elements(array)
         i[:count] = count}
 end
 
-def merge_data(array)
+def merge_data(keys, data)
   array.merge
 end  
   

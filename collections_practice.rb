@@ -7,6 +7,11 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  return array.index {|word| word[0..1] == "wa"}
-  
+  wa = []
+  array.each do |word| 
+    if word[0..1] == "wa"
+      wa << word
+    end
+  end 
+  wa.first
 end  

@@ -26,5 +26,8 @@ def remove_non_strings(array)
   str
 end  
 
-
+def count_elements(array)
+  count = 0
+  array.map {|word| 
+end
 

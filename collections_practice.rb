@@ -22,5 +22,9 @@ def remove_non_strings(array)
     if word.include?("")
       str << word
     end  
-  end  
+  end 
+  str
 end  
+
+
+

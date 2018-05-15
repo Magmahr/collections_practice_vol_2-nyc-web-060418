@@ -17,5 +17,10 @@ def first_wa(array)
 end  
 
 def remove_non_strings(array)
-  array.select {|word| word.include?("")}
+  str = []
+  array.each do |word|
+    if word.include?("")
+      str << word
+    end  
+  end  
 end  

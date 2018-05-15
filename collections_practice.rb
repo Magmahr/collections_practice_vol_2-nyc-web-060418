@@ -8,6 +8,7 @@ def begins_with_r(array)
     else
       return false
     end  
+  end  
 end  
 
 def contain_a

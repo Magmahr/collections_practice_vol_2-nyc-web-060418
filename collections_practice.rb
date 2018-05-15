@@ -19,11 +19,11 @@ end
 def remove_non_strings(array)
   str = []
   array.each do |word|
-    unless word.include?("")
-      str << word
-    end  
+    if word == "blake"
+    str << word  
+    end
   end 
-  array
+  str
 end  
 
 

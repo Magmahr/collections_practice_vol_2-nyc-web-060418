@@ -5,3 +5,7 @@ def begins_with_r(array)
     end  
   end  
 end  
+
+def containt_a
+  
+end  

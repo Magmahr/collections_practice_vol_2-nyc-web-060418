@@ -30,5 +30,7 @@ def count_elements(array)
   array.uniq.each {|word| count = 0}
     array.each {|word2| if word2 == word then count += 1 end}
        i[:count] = count}
+  end 
+    end
 end
 

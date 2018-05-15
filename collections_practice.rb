@@ -27,8 +27,8 @@ def remove_non_strings(array)
 end  
 
 def count_elements(array)
-  count = Hash.new(0)
-  array.each {|word| count[word] += 1}
-  count
+  array.uniq.each {|word| count = 0}
+    array.each {|word2| if word2 == word then count += 1 end}
+       i[:count] = count}
 end
 

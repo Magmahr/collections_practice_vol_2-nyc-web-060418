@@ -29,6 +29,7 @@ end
 def count_elements(array)
   count = Hash.new(0)
   array.each {|word| count[word] += 1}
-  
+  count[0]
+  count[1]
 end
 
